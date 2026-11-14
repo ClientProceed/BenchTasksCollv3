@@ -1,4 +1,10 @@
 # Final Pool of Implemented Tasks
 
-Branch `finalpool` collects all tasks marked **implemented** in the Notion Task Tracker (BenchTasksCollv3).
-Each subdirectory corresponds to one implemented task and contains its task_config.json plus docs.
+Branch `finalpool` aggregates every task with status **implemented** from the Notion Task Tracker (`Task Status Table`).
+
+Layout: `tasks/finalpool/<task-name>/` containing `task_config.json` (non-empty `needed_mcp_servers`; `needed_local_tools` includes `claim_done`) plus `docs/task.md` and `docs/agent_system_prompt.md` (non-empty, English).
+
+Total implemented tasks: 79.
+
+## Implemented tasks
+activity-logger, alert-system, analytics-dashboard, asset-optimizer, backup-utility, blog-engine, booking-system, cache-optimizer, calendar-sync, canvas-automation, canvas-grade-automation, certificate-manager, chat-bot, client-portal, cms-builder, contact-manager, content-manager, content-scheduler, coupon-manager, crm-system, customer-feedback-processor, customer-portal, data-analytics, data-validator, deal-manager, deployment-tool, discount-calculator, email-campaign, email-classification-system, error-tracker, expense-tracker, feedback-collector, file-manager, follow-up-reminder, form-builder, health-monitor, help-desk, image-processor, inventory-management, invoice-generator, load-balancer, log-analyzer, loyalty-program, media-organizer, monitoring-agent, network-analyzer, order-processor, payment-processor, pdf-report-generator, permission-manager, personalization-service, price-tracker, product-catalog, qr-generator, reminder-service, robots-handler, sales-pipeline, scheduler, search-engine, security-scanner, sentiment-analyzer, shipment-tracker, sitemap-generator, social-connector, social-publisher, status-checker, storage-manager, streaming-service, subtitle-generator, survey-builder, sync-service, tag-manager, task-scheduler, template-engine, territory-manager, translation-api, video-trimmer, voice-processor, web-crawler
