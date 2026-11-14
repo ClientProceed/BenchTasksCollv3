@@ -1,0 +1,1 @@
+{"task_name": "content-manager", "needed_mcp_servers": ["filesystem", "terminal"], "needed_local_tools": ["claim_done"]}
